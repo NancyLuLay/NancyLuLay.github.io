@@ -547,9 +547,9 @@ fieldset[disabled] .btn-theme {
 
 .header .logo-img {
   display: inline-block;
-  width: 76px;
+  width: 300px;
   height: auto;
-  max-width: 100%;
+  max-width: 300px;
   max-height: 100%;
   vertical-align: middle;
 }
@@ -1335,6 +1335,15 @@ fieldset[disabled] .btn-theme {
 ------------------------------------------------------------------*/
 h2.contact-title{
   text-transform: uppercase;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.opportunities{
+  display: inline;
+  margin-left: 10px;
 }
 
 .row-space-2.no-space > [class*="col-"]{
